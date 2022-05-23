@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+:root{
+  /* font-size: 62.5%; */
+
+  --main-bg: #F3F3F3;
+  --bg-doll: red;
+  --bg-object: green;
+}
+/* .scenery{
+  background-color: #F3F3F3;
+  width: 100%;
+  min-height: 100vh;
+} */
+.dino{
+  width: 5rem;
+  height: 6rem;
+  background-color: var(--bg-doll);
+  position: absolute;
+  bottom: 0;
+  left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cactus{
+  width: 5rem;
+  height: 5rem;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  /* left: 50%; */
+}
+  
